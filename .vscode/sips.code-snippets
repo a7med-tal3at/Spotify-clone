@@ -1,0 +1,15 @@
+{
+  "Declare a new useDispatch() instance": {
+    "scope": "javascript,typescript",
+    "prefix": "disp",
+    "body": ["const dispatch = useDispatch();"],
+    "description": ""
+  }
+
+  "Declare a new useSelector() instance": {
+    "scope": "javascript,typescript",
+    "prefix": "slt",
+    "body": ["const selector = useSelector((state)=> state.$1.selector);"],
+    "description": ""
+  }
+}
